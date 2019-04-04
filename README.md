@@ -1,0 +1,3 @@
+# Laravel admin select2 bootstrap theme
+
+Laravel admin的select框默认不是bootstrap样式，怒换之...

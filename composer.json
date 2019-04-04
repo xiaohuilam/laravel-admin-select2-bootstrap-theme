@@ -1,0 +1,28 @@
+{
+    "name": "xiaohuilam/laravel-admin-select2-bootstrap-theme",
+    "description": "Laravel admin select2 bootstrap theme",
+    "type": "library",
+    "require": {
+        "encore/laravel-admin": "~1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaohui.lam",
+            "email": "xiaohui.lam@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelAdminExt\\Select2\\Theme\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelAdminExt\\Select2\\Theme\\LaravelAdminSelect2BootstrapThemServiceProvider"
+            ]
+        }
+    }
+}
