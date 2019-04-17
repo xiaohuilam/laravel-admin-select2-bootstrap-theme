@@ -11,7 +11,6 @@ class LaravelAdminSelect2BootstrapThemServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
         if ($this->app->runningInConsole()) {
             $this->publishes(
                 [
