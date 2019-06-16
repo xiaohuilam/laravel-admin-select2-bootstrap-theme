@@ -3,7 +3,7 @@
     "description": "Laravel admin select2 bootstrap theme",
     "type": "library",
     "require": {
-        "encore/laravel-admin": "~1.6"
+        "encore/laravel-admin": ">=1.6"
     },
     "license": "MIT",
     "authors": [
